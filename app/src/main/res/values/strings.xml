@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">GymManagementSystem</string>
+    <string name="edittexthint"><font size="50">Package Name</font></string>
+    <string name="batch_name">Batch Name</string>
+    <string name="batch_time">Batch Time</string>
+    <string name="image_Discription">Images</string>
+    <string name="attendance">Attendance</string>
+    <string name="enter_a_name_to_search">Enter a name To Search</string>
+    <string name="search">search</string>
+    <string name="gym_managent_system">Gym Managent System</string>
+    <string name="master">Master</string>
+    <string name="customer_entry">Customer Entry</string>
+
+    <string name="sms">SMS</string>
+    <string name="tools">Tools</string>
+    <string name="report">Report</string>
+    <string name="logout">Logout</string>
+    <string name="package_master">Package Master</string>
+    <string name="package_name">Package Name</string>
+    <string name="launch_date_13_12_2017">Launch Date 13-12-2017</string>
+    <string name="duration_in_month">Duration in Month</string>
+    <string name="amount">Amount</string>
+    <string name="navin">New</string>
+    <string name="submit">Submit</string>
+    <string name="batch_master">Batch Master</string>
+    <string name="master_page">Master Page</string>
+    <string name="member_list">Member List</string>
+    <string name="active_member">Active Member</string>
+    <string name="expired_member">Expired Member</string>
+    <string name="fees_report">Fees Report</string>
+    <string name="atten_report">Attendance Report</string>
+    <string name="email">Email</string>
+    <string name="mob_no">Mobile Number</string>
+    <string name="send">Send</string>
+    <string name="package_id">Package Id</string>
+    <string name="password">Password</string>
+    <string name="batch_id">Batch Id</string>
+    <string name="cancel">Cancel</string>
+    <string name="fee_id">Fee Id</string>
+    <string name="alternative_mobile_number">Alternative Mobile Number</string>
+
+    <string-array name="attendance">
+        <item>P</item>
+        <item>A</item>
+    </string-array>
+    <string-array name="cityName">
+        <item>Mumbai</item>
+        <item>Pune</item>
+        <item>NANDURBAR</item>
+        <item>DHULE</item>
+        <item>JALGAON</item>
+        <item>Buldhana</item>
+        <item>AKOLA</item>
+        <item>WASHIM</item>
+        <item>AMRAVATI</item>
+        <item>WARDHA</item>
+        <item>NAGPUR</item>
+        <item>BHANDARA</item>
+        <item>GONDIYA</item>
+        <item>GADCHIROLI</item>
+        <item>CHANDRAPUR</item>
+        <item>YAVATMAL</item>
+        <item>NANDED</item>
+        <item>HINGOLI</item>
+        <item>PARBHANI</item>
+        <item>JALNA</item>
+        <item>AURANGABAD</item>
+        <item>NASHIK</item>
+        <item>THANE</item>
+        <item>RAIGAD</item>
+        <item>AHMADNAGAR</item>
+        <item>BEED</item>
+        <item>LATUR</item>
+        <item>OSMANABAD</item>
+        <item>SOLAPUR</item>
+        <item>SATARA</item>
+        <item>RATNAGIRI</item>
+        <item>SINDHUDURG</item>
+        <item>KOLHAPUR</item>
+        <item>SANGLI</item>
+    </string-array>
+    
+    <string-array name="MedicalHistory">
+        <item>Authorities</item>
+        <item>Heart Disease</item>
+        <item>Other Pain</item>
+        <item>Asthma,Emphysema,bronchitis</item>
+        <item>Foot Pain</item>
+        <item>Pregnancy</item>
+        <item>Backpan</item>
+        <item>Chest Pain</item>
+        <item>Heart problem</item>
+        <item>High BP</item>
+        <item>Muscle Pain</item>
+        <item>Diabetes</item>
+        <item>Join Pain</item>
+        <item>Sureries, Hospitalisation</item>
+
+    </string-array>
+    <string name="ok_label">OK</string>
+    <string name="dismiss_label">Dismiss</string>
+    <string name="clear_all_label">Clear all</string>
+    <string name="select_customer_name">Select Customer Name</string>
+    <string name="total_fees_amount">Total Fees Amount</string>
+    <string name="amount_received">Amount Received</string>
+    <string name="discount">Discount</string>
+    <string name="total_outstanding">Total Outstanding</string>
+    <string name="fee_date_from">Fee Date From</string>
+    <string name="fee_date_to">Fee Date To</string>
+    <string name="fees">Fees</string>
+    <string name="select_package_id">Select Package ID</string>
+
+
+</resources>

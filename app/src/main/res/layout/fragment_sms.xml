@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gym_icon"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/image_Discription" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/backgroundColor"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:text="SMS"
+            android:textColor="@color/textcolorhint"
+            android:layout_margin="2dp"
+
+            />
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:hint="Mobile Number"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/textcolorhint"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edt_mobno"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:hint="Message"
+        android:maxLines="6"
+        android:inputType="text"
+        android:textColorHint="@color/textcolorhint"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edt_msg"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
+
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/send"
+            android:background="@null"
+            android:id="@+id/btn_new"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_weight="1"
+            android:id="@+id/btn_submit"
+            android:background="@null"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

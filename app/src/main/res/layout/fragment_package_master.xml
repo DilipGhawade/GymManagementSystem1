@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gym_icon"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/image_Discription"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/backgroundColor"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/package_master"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:layout_margin="2dp"
+            android:textStyle="bold"
+            android:textColor="@color/textcolorhint"
+
+            />
+
+    </LinearLayout>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:hint="@string/package_id"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/textcolorhint"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edt_package_id"
+            />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:hint="@string/package_name"
+        android:inputType="text"
+        android:textColorHint="@color/textcolorhint"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edt_package_name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:hint="@string/launch_date_13_12_2017"
+        android:inputType="text"
+        android:textColorHint="@color/textcolorhint"
+        android:id="@+id/edt_package_launchdate"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:hint="@string/duration_in_month"
+        android:inputType="number"
+        android:maxLength="2"
+        android:textColorHint="@color/textcolorhint"
+        android:id="@+id/edt_package_duration"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:hint="@string/amount"
+        android:inputType="number"
+        android:textColorHint="@color/textcolorhint"
+        android:id="@+id/edt_package_amount"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
+
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/submit"
+            android:background="@null"
+            android:id="@+id/btn_package_submit"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_weight="1"
+            android:id="@+id/btn_package_cancel"
+            android:background="@null"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/image_Discription"
+                android:src="@drawable/gym_icon" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/backgroundColor">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:gravity="center_horizontal"
+                android:text="Features of Whatsapp Using app"
+                android:textColor="@color/textcolorhint"
+                android:textStyle="bold"
+
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="We are Providing a new Feature insted of text message you can share a some information using whatsapp."  android:textColor="@color/txtColordark" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" In this app We use WhatsApp to share a Members/Customers Outstanding fees Details to particular member."
+        android:layout_gravity="center"
+
+
+        android:textColor="@color/txtColordark"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q. How to use Whatsapp in app?"
+            android:textColor="@color/txtColordark"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Ans -> Go to Report then Fees Report and select particular member to send message click on whatsapp icon when we clicking on whatsapp your whatsapp is launch select particular contact and click send button.It's easy and costless that means absolutely free no need to pay."
+            android:textColor="@color/txtColordark"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/backgroundColor"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:text="@string/batch_master"
+            android:textColor="@color/textcolorhint"
+            android:layout_margin="2dp"
+
+            />
+
+    </LinearLayout>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="@string/batch_id"
+           android:textColorHint="@color/textcolorhint"
+           android:layout_weight="1"
+           android:layout_margin="10dp"
+           android:id="@+id/edt_batchid"
+           />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/batch_name"
+        android:textColorHint="@color/textcolorhint"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:id="@+id/edt_batchname"
+        />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/batch_time"
+            android:textColorHint="@color/textcolorhint"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/edt_batchtime"
+            />
+  <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/batch_time"
+    android:textColorHint="@color/textcolorhint"
+    android:layout_weight="1"
+    android:layout_margin="10dp"
+    android:id="@+id/edt_batchdate"
+    />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:layout_weight="1"
+            android:id="@+id/txt_batchresult"
+            android:layout_margin="10dp"
+            android:visibility="gone"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:id="@+id/batch_submit"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            tools:ignore="ButtonStyle,HardcodedText" />
+          <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:id="@+id/batch_cancel"
+            tools:ignore="ButtonStyle" />
+
+        </LinearLayout>
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/cancel"
+    android:textSize="20sp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_weight="1"
+    android:id="@+id/batch_selectdate"
+    tools:ignore="ButtonStyle" />
+
+</LinearLayout>

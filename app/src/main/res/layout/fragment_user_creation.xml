@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/image_Discription"
+            android:src="@drawable/gym_icon" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/backgroundColor">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:gravity="center_horizontal"
+            android:text="User Creation"
+            android:textColor="@color/textcolorhint"
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:hint="User Name"
+        android:inputType="text"
+        android:textColorHint="@color/textcolorhint"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edt_username"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:hint="@string/email"
+        android:inputType="textWebEmailAddress"
+        android:textColorHint="@color/textcolorhint"
+        android:id="@+id/edt_useremail"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:hint="@string/password"
+        android:inputType="textWebEmailAddress"
+        android:textColorHint="@color/textcolorhint"
+        android:id="@+id/edt_userpassword"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:hint="Address"
+        android:inputType="text"
+        android:maxLength="2"
+        android:textColorHint="@color/textcolorhint"
+        android:id="@+id/edt_useraddress"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:hint="@string/mob_no"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/textcolorhint"
+        android:id="@+id/edt_mobileno"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="2dp"
+        >
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Male"
+                android:layout_weight="1"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Female"
+                android:layout_weight="1"
+                />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
+
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/submit"
+            android:background="@null"
+            android:id="@+id/btn_new"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_weight="1"
+            android:id="@+id/btn_submit"
+            android:background="@null"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
